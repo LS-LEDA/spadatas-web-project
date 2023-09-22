@@ -1,0 +1,47 @@
+  .not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    background-color: #c7e4ff;
+    padding-top: 9rem;
+  }
+
+  .not-found-gif {
+    margin-bottom: 2rem;
+    transform: scale(1.5);
+  }
+
+  .not-found-text {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  @media screen and (max-width: 960px) {
+
+    .not-found-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: contain;
+        width: 100%;
+        height: 80vh;
+        background-color: #c7e4ff;
+        padding-top: 5rem;
+    }
+
+    .not-found-gif {
+        margin-bottom: 1rem;
+        transform: scale(1);
+    }
+
+    .not-found-text {
+        color: #000000;
+        font-size: 1rem;
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+  }

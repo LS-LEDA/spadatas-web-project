@@ -1,0 +1,222 @@
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    width: 100%;
+    background-color: #c7e4ff;
+  }
+  
+  .hero-container > h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 35%;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:stretch;
+    width: 90%;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.7rem 0.7rem 0.7rem 2rem;
+    border-radius: 30px;
+    margin: 0px 100px 35px 100px;
+  }
+
+  .hero-search-button {
+    background: url(/public/images/search_icon.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #3A6AAD;
+    border: none;
+    border-radius: 20px;
+    width: 63.75px;
+    height: 63.75px;
+    /* Hide the text. */
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .hero-search-button:hover {
+    background-color: #345e99;
+  }
+
+  .hero-search-button:active {
+    box-shadow: 0px 0px 10px 5px #132238 inset;
+  }
+
+  .hero-search-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    object-fit: contain;
+    width: 20%;
+  }
+
+  .hero-search-label {
+    margin-bottom: 7px;
+    margin-left: 2px;
+  }
+
+  .hero-search-select{
+    width:100%;
+    color:black;
+  }
+
+  .hero-element-container {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 2%;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+
+  .hero-loading-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-loading-logo {
+    transform: scale(0.4);
+    align-self: center;
+    margin: -2.5rem 0 -2.5rem 0;
+  }
+
+  .hero-no-results {
+    align-self: center;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+
+
+  @media screen and (max-width: 960px) {
+
+    .hero-container > h1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: auto;
+      background: rgba(0,0,0,0.75);
+      color: #fff;
+      font-size: 1.5rem;
+      padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+      border-radius: 20px;
+      margin-top: 38px;
+      margin-bottom: 15px;
+    }
+
+    .hero-subtitle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      background: rgba(0,0,0,0.75);
+      color: #fff;
+      font-size: 0.6rem;
+      padding: 0.75rem 1.5rem 0.7rem 1.5rem;
+      border-radius: 20px;
+      margin: 0px 1rem 20px 1rem;
+    }
+
+    .hero-search-bar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+      width: 90%;
+      background: rgba(0,0,0,0.75);
+      color: #fff;
+      font-size: 1rem;
+      padding: 1rem 1rem 1rem 1rem;
+      border-radius: 30px;
+      margin-bottom: 23px;
+    }
+
+    .hero-search-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      object-fit: contain;
+      width: 100%;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero-search-button {
+      background: url(/public/images/search_icon.png);
+      background-size: 12%;
+      background-repeat: no-repeat;
+      background-position: 95%;
+      background-color: #3A6AAD;
+      border: none;
+      border-radius: 20px;
+
+      color: #fff;
+      font-size: 1.5rem;
+
+      width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      padding: 0.8rem 0rem 0.8rem 0rem;
+      text-indent: 0%;
+      white-space: nowrap;
+      overflow: visible;
+
+    }
+  
+    .hero-search-button:hover {
+      background-color: #345e99;
+    }
+  
+    .hero-search-button:active {
+      box-shadow: 0px 0px 10px 5px #132238 inset;
+    }
+    
+    .hero-element-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 90%;
+      margin-bottom: 50px;
+    }
+
+    .hero-loading-logo {
+      transform: scale(0.5);
+      align-self: center;
+      margin: 0;
+    }
+  }
