@@ -69,7 +69,7 @@ function handleLanguageChange(e) { last_selected_language = selected_language; s
 
 
 
-const elementsAtStart = 1;
+const elementsAtStart = 10;  // Number of elements to load initially when searching
 var didWeSearch = false;     // Flag to know if we searched
 var isResources = false;     // Flag to know if we got resources
 
