@@ -13,7 +13,7 @@ function Footer() {
         </div>
 
         <div className='footer-item'>
-            <a className='footer-link footer-format' href='https://creativecommons.org/licenses/by-nc-sa/4.0/'><img id="footer-CC-image" src='./images/EN_V_Co-funded_by_NEG.png' alt='Attribution-NonCommercial-ShareAlike 4.0 International'/></a>
+            <a className='footer-link footer-format' href='https://creativecommons.org/licenses/by-nc-sa/4.0/'><img id="footer-CC-image" src='./images/cc_thumbnail_by-nc-sa.png' alt='Attribution-NonCommercial-ShareAlike 4.0 International'/></a>
         </div>
 
         <div className='footer-item'>
